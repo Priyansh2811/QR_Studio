@@ -1,0 +1,15 @@
+node_modules/
+dist/
+target/
+.m2/
+.m2-local/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+!backend/data/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+.idea/
+*.iml
+.DS_Store
