@@ -1,4 +1,4 @@
-# QR Studio
+# QR Studio - QR code Generator
 
 QR Studio turns any web link into a clean, downloadable QR code. It has a small React frontend and a Java/Spring Boot API backed by SQLite, so saved links stay on your machine while you build a useful personal history.
 
