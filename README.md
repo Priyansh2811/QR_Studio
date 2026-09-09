@@ -60,5 +60,69 @@ The frontend build is written to `frontend/dist`. The Java API can be packaged w
 | `DELETE` | `/api/generations` | Clear all saved links |
 | `GET` | `/api/health` | Basic health response |
 
+# 📱 QR Studio — QR Code Generator
+
+A simple full-stack QR code generator that turns web links into clean, downloadable QR codes.  
+The frontend is built with React + Vite, while the backend uses Java Spring Boot with SQLite for storing QR generation history.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, JavaScript, CSS
+- **Backend:** Java 17+, Spring Boot, REST API
+- **Database:** SQLite
+- **Build Tools:** npm, Maven
+
+## 📁 Project Structure
+
+```text
+qr-studio/
+├── backend/
+│   ├── data/
+│   │   └── qr-studio.db
+│   ├── src/
+│   │   ├── main/
+│   │   └── test/
+│   ├── Dockerfile
+│   └── pom.xml
+│
+├── frontend/
+│   ├── src/
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Backend
+```bash
+cd backend
+mvn spring-boot:run
+```
+Backend runs on: http://localhost:8080
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Frontend runs on: http://localhost:5173
 
 
+## 🔌 API Reference
+
+| Method   | Endpoint                | Purpose                   |
+| -------- | ----------------------- | ------------------------- |
+| `GET`    | `/api/generations`      | Get recent QR generations |
+| `POST`   | `/api/generations`      | Save a QR generation      |
+| `DELETE` | `/api/generations/{id}` | Delete a generation       |
+| `DELETE` | `/api/generations`      | Clear all generations     |
+| `GET`    | `/api/health`           | Check API status          |
+
+
+### 🌐 Deployed on vercel:  https://qrstudio-dev.vercel.app
