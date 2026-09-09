@@ -124,5 +124,6 @@ Frontend runs on: http://localhost:5173
 | `DELETE` | `/api/generations`      | Clear all generations     |
 | `GET`    | `/api/health`           | Check API status          |
 
+## 🚀 Deployment
 
-### 🌐 Deployed on vercel:  https://qrstudio-dev.vercel.app
+ Deployed on vercel:  https://qrstudio-dev.vercel.app
