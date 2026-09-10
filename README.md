@@ -74,4 +74,4 @@ Frontend runs on: http://localhost:5173
 
 ## 🚀 Deployment
 
- Deployed on vercel:  https://qrstudio-dev.vercel.app
+ Deployed on vercel: https://qrstudio-dev.vercel.app
