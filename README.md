@@ -6,7 +6,7 @@ The frontend is built with React + Vite, while the backend uses Java Spring Boot
 ## ⚙️ Features
 
 - Accepts `http://` and `https://` links with friendly validation.
-- Generates a scannable QR code in the browser.
+- Generates a scannable QR code in the browser. 
 - Download the current QR as a PNG or copy the link.
 - Optional label, background color, size, and error-correction controls.
 - Responsive layout with keyboard-friendly controls and reduced-motion support.
