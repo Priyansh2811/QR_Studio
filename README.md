@@ -11,6 +11,7 @@ The frontend is built with React + Vite, while the backend uses Java Spring Boot
 - Optional label, background color, size, and error-correction controls.
 - Responsive layout with keyboard-friendly controls and reduced-motion support.
 
+
   
 ## 🛠️ Tech Stack
 
